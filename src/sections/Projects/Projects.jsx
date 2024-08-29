@@ -7,7 +7,7 @@ import ProjectCard from "../../common/ProjectCard";
 /* podria haberlo hecho en un array u otra forma pero esta bien*/
 function Projects() {
   return (
-    <section id="projects" className={StyleSheet.container}>
+    <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Proyectos</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
