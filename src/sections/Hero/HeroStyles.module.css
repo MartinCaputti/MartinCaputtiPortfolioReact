@@ -70,13 +70,13 @@
 .description {
   max-width: 24ch;
 }
-/*
+
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
+/*
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
