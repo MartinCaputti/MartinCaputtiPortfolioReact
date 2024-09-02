@@ -1,4 +1,5 @@
 :root {
+  /*para cuando use las variables en tema claro*/
   --background-color: #fff;
   --btn-color: #0987f2;
   --btn-text-color: #fff;
@@ -7,7 +8,7 @@
   --form-text-color: #555;
   --footer-text-color: #888;
 }
-
+/*para cuando use las variables en tema oscuro*/
 [data-theme="dark"] {
   --background-color: #222;
   --btn-color: #fff;
@@ -92,7 +93,7 @@ p {
   .sectionTitle {
     margin-bottom: 60px;
   }
-  /*
+
   @media (width >= 1400px) {
     #root {
       gap: 200px;
@@ -104,5 +105,5 @@ p {
     .sectionTitle {
       margin-bottom: 75px;
     }
-  }*/
+  }
 }

@@ -9,6 +9,10 @@
 
   .hero {
     max-width: 200px;
+    max-height: 350px;
+    border-radius: 50%; /* Esto hace que la imagen se vuelva circular */
+    object-fit: cover; /* Mantiene la imagen centrada y ajustada sin deformarla */
+    border: 2px solid #ccc; /* Opcional: un borde alrededor de la imagen */
   }
 
   span {
@@ -76,7 +80,7 @@
   flex-direction: column;
   gap: 20px;
 }
-/*
+
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
@@ -98,4 +102,3 @@
     }
   }
 }
-*/
