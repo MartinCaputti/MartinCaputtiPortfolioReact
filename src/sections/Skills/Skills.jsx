@@ -1,5 +1,5 @@
 import styles from "./SkillsStyles.module.css";
-import checkMarkIcon from "../../assets/checkmark-dark.svg";
+import Aprobado from "../../assets/Aprobado.svg";
 import SkillList from "../../common/SkillList";
 
 function Skills() {
@@ -7,23 +7,23 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Habilidades</h1>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="HTML" />
-        <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="JavaScript" />
-        <SkillList src={checkMarkIcon} skill="C" />
+        <SkillList src={Aprobado} skill="HTML" />
+        <SkillList src={Aprobado} skill="CSS" />
+        <SkillList src={Aprobado} skill="JavaScript" />
+        <SkillList src={Aprobado} skill="C" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="C++" />
-        <SkillList src={checkMarkIcon} skill="C#" />
-        <SkillList src={checkMarkIcon} skill="PHP" />
-        <SkillList src={checkMarkIcon} skill="MySQL" />
+        <SkillList src={Aprobado} skill="C++" />
+        <SkillList src={Aprobado} skill="C#" />
+        <SkillList src={Aprobado} skill="PHP" />
+        <SkillList src={Aprobado} skill="MySQL" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="UML" />
-        <SkillList src={checkMarkIcon} skill="Github" />
-        <SkillList src={checkMarkIcon} skill="Excel" />
+        <SkillList src={Aprobado} skill="UML" />
+        <SkillList src={Aprobado} skill="Github" />
+        <SkillList src={Aprobado} skill="Excel" />
       </div>
     </section>
   );

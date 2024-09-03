@@ -18,6 +18,7 @@ function Contact() {
           ></input>
         </div>
       </form>
+      <br></br>
       <form action="">
         <div className="formGroup">
           <label htmlFor="email" hidden>
@@ -32,6 +33,7 @@ function Contact() {
           ></input>
         </div>
       </form>
+      <br></br>
       <form action="">
         <div className="formGroup">
           <label htmlFor="message" hidden>
