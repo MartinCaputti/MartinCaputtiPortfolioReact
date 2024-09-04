@@ -29,7 +29,7 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 20px;
 }
 
 h1,
@@ -75,9 +75,9 @@ p {
   cursor: pointer;
 }
 
-@media (width >= 800px) {
+@media (1400px > width >= 800px) {
   #root {
-    gap: 100px;
+    gap: 70px;
   }
   h1 {
     font-size: 40px;
@@ -96,7 +96,7 @@ p {
 
   @media (width >= 1400px) {
     #root {
-      gap: 200px;
+      gap: 100px;
     }
     h1 {
       font-size: 48px;

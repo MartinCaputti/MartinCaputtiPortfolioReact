@@ -1,8 +1,7 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
-import freshBurguer from "../../assets/fresh-burger.png";
-import fitLift from "../../assets/fitlift.png";
-import hipsster from "../../assets/hipsster.png";
+import fin from "../../assets/Fin.jpg";
+import JuegoPong from "../../assets/ping-pong.png";
+import ComingSoon from "../../assets/ComingSoon.jpg";
 import ProjectCard from "../../common/ProjectCard";
 /* podria haberlo hecho en un array u otra forma pero esta bien*/
 function Projects() {
@@ -11,28 +10,22 @@ function Projects() {
       <h1 className="sectionTitle">Proyectos</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/MartinCaputti"
-          h3="Vibber"
-          p="Github Personal"
+          src={fin}
+          link="https://simaleara.com.ar/inicio"
+          h3="SimAleara"
+          p="Simulador de recibos"
         ></ProjectCard>
         <ProjectCard
-          src={freshBurguer}
-          link="https://github.com/MartinCaputti"
-          h3="FreshBurguer"
-          p="Project 2"
+          src={JuegoPong}
+          link="https://juegopongmartin.netlify.app/"
+          h3="JuegoPong"
+          p="Clasico Juego Pong en JavaScript"
         ></ProjectCard>
         <ProjectCard
-          src={hipsster}
+          src={ComingSoon}
           link="https://github.com/MartinCaputti"
-          h3="hipsster"
-          p="Project 3"
-        ></ProjectCard>
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/MartinCaputti"
-          h3="Fitlift"
-          p="Project 4"
+          h3="Proximamente"
+          p="Proyecto en desarrollo "
         ></ProjectCard>
       </div>
     </section>

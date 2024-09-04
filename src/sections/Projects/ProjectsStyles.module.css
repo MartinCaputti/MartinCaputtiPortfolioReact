@@ -5,9 +5,12 @@
 
   img {
     max-width: 250px;
+    height: 250px;
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 20px;
+    border-style: groove;
+    border-color: #0098a3;
   }
 
   a {
