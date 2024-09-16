@@ -1,5 +1,5 @@
 :root {
-  /*para cuando use las variables en tema claro*/
+  /* Variables para el tema claro */
   --background-color: #fff;
   --btn-color: #0098a3;
   --btn-text-color: #fff;
@@ -8,7 +8,8 @@
   --form-text-color: #555;
   --footer-text-color: #888;
 }
-/*para cuando use las variables en tema oscuro*/
+
+/* Variables para el tema oscuro */
 [data-theme="dark"] {
   --background-color: #222;
   --btn-color: #fff;
@@ -21,15 +22,14 @@
 
 body {
   background-color: var(--background-color);
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 60px;
+  margin: 0;
 }
 
 #root {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-top: 60px; /* Ajusta según la altura del navbar */
 }
 
 h1,
@@ -75,7 +75,7 @@ p {
   cursor: pointer;
 }
 
-@media (1400px > width >= 800px) {
+@media (min-width: 800px) {
   #root {
     gap: 70px;
   }
@@ -93,17 +93,17 @@ p {
   .sectionTitle {
     margin-bottom: 60px;
   }
+}
 
-  @media (width >= 1400px) {
-    #root {
-      gap: 100px;
-    }
-    h1 {
-      font-size: 48px;
-    }
+@media (min-width: 1400px) {
+  #root {
+    gap: 100px;
+  }
+  h1 {
+    font-size: 48px;
+  }
 
-    .sectionTitle {
-      margin-bottom: 75px;
-    }
+  .sectionTitle {
+    margin-bottom: 75px;
   }
 }
