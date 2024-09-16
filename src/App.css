@@ -12,7 +12,7 @@
 /* Variables para el tema oscuro */
 [data-theme="dark"] {
   --background-color: #222;
-  --btn-color: #fff;
+  --btn-color: #0098a3; /* Usa el mismo color para el hover */
   --btn-text-color: #222;
   --project-card-bg: #fff;
   --text-color: #fff;
