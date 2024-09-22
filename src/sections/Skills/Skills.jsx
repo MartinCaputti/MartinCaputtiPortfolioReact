@@ -22,13 +22,14 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={Aprobado} skill="UML" />
+        <SkillList src={Aprobado} skill="Dart" />
         <SkillList src={Aprobado} skill="Github" />
         <SkillList src={Aprobado} skill="Excel" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={Aprobado} skill="React" />
-        <SkillList src={Aprobado} skill="Json" />
+        <SkillList src={Aprobado} skill="Flutter" />
         <SkillList src={Aprobado} skill="WordPress" />
       </div>
     </section>
